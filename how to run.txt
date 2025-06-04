@@ -1,0 +1,28 @@
+How to Run the Trading Bot Application
+======================================
+
+1. Install MetaTrader for Windows
+    - Download and install MetaTrader 5 from the official website or your broker.
+
+2. Set Up Python Virtual Environment
+    - Open Command Prompt and navigate to the project directory:
+      cd path_to_the_project/Trading_bot
+
+    - Create a virtual environment:
+      python -m venv venv
+
+    - Activate the virtual environment:
+      venv/Scripts/activate
+
+3. Install Python Dependencies
+    - Make sure you have a requirements.txt file in the project directory.
+    - Install dependencies:
+      pip install -r requirements.txt
+
+4. Run the Application
+    - Start the UI:
+      python risk-limiter_ui.py
+
+5. Additional Notes
+    - Ensure MetaTrader is running and properly configured for your bot.
+    - Refer to the project documentation for further configuration details.
