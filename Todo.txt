@@ -1,0 +1,21 @@
+
+
+1.  Per-Trade Risk Management
+
+	•	Max floating loss per trade capped at 1.1% of account balance
+
+	•	If floating loss exceeds 1.1% on any position, it is auto-closed immediately
+
+	•	Works even if multiple trades are open on the same instrument
+
+
+
+2.  Daily Drawdown Protection
+
+	•	Maximum daily drawdown limit: 2% of account balance
+
+	•	If 2% loss (closed + floating) is hit in a day:
+
+	•	Auto-close all open trades
+
+	•	Block any new trades for the rest of the day
